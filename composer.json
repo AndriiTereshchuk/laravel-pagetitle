@@ -1,17 +1,17 @@
 {
-    "name": "rephlux/pagetitle",
+    "name": "at/pagetitle",
     "description": "Manage page title in Laravel views",
     "keywords": [
         "laravel",
         "title",
         "blade"
     ],
-    "homepage": "https://github.com/rephluX/laravel-pagetitle",
+    "homepage": "https://github.com/AndriiTereshchuk/laravel-pagetitle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris van Daele",
-            "email": "engine_no9@gmx.net"
+            "name": "Andrii Tereshchuk",
+            "email": "andrii@tereshch.uk"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rephlux\\PageTitle\\": "src"
+            "AT\\PageTitle\\": "src"
         },
         "files": [
             "src/functions.php"
@@ -31,16 +31,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rephlux\\PageTitle\\Test\\": "test"
+            "AT\\PageTitle\\Test\\": "test"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rephlux\\PageTitle\\PageTitleServiceProvider"
+                "AT\\PageTitle\\PageTitleServiceProvider"
             ],
             "aliases": {
-                "PageTitle": "Rephlux\\PageTitle\\Facades\\PageTitle"
+                "PageTitle": "AT\\PageTitle\\Facades\\PageTitle"
             }
         }
     }
