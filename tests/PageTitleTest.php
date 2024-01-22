@@ -1,9 +1,9 @@
 <?php
 
-namespace AT\PageTitle\Test;
+namespace ATereshchuk\PageTitle\Test;
 
 use PHPUnit\Framework\TestCase;
-use AT\PageTitle\PageTitle;
+use ATereshchuk\PageTitle\PageTitle;
 
 /**
  * Class PageTitleTest.
