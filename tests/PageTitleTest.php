@@ -1,9 +1,9 @@
 <?php
 
-namespace Rephlux\PageTitle\Test;
+namespace AT\PageTitle\Test;
 
 use PHPUnit\Framework\TestCase;
-use Rephlux\PageTitle\PageTitle;
+use AT\PageTitle\PageTitle;
 
 /**
  * Class PageTitleTest.
