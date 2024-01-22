@@ -1,5 +1,5 @@
 {
-    "name": "at/pagetitle",
+    "name": "atereshchuk/pagetitle",
     "description": "Manage page title in Laravel views",
     "keywords": [
         "laravel",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AT\\PageTitle\\": "src"
+            "ATereshchuk\\PageTitle\\": "src"
         },
         "files": [
             "src/functions.php"
@@ -31,16 +31,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "AT\\PageTitle\\Test\\": "test"
+            "ATereshchuk\\PageTitle\\Test\\": "test"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AT\\PageTitle\\PageTitleServiceProvider"
+                "ATereshchuk\\PageTitle\\PageTitleServiceProvider"
             ],
             "aliases": {
-                "PageTitle": "AT\\PageTitle\\Facades\\PageTitle"
+                "PageTitle": "ATereshchuk\\PageTitle\\Facades\\PageTitle"
             }
         }
     }
