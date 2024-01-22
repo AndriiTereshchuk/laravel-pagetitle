@@ -1,13 +1,13 @@
 <?php
 
-namespace AT\PageTitle;
+namespace ATereshchuk\PageTitle;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class PageTitleServiceProvider.
  *
- * @author Chris van Daele <engine_no9@gmx.net>
+ * @author Andrii Tereshchuk <andrii@tereshch.uk>
  */
 class PageTitleServiceProvider extends ServiceProvider
 {
