@@ -1,6 +1,6 @@
 <?php
 
-namespace Rephlux\PageTitle\Facades;
+namespace AT\PageTitle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
