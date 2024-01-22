@@ -1,13 +1,13 @@
 <?php
 
-namespace AT\PageTitle;
+namespace ATereshchuk\PageTitle;
 
 use Countable;
 
 /**
  * Class PageTitle.
  *
- * @author Chris van Daele <engine_no9@gmx.net>
+ * @author Andrii Tereshchuk <andrii@tereshch.uk>
  */
 class PageTitle implements Countable
 {
