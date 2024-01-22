@@ -6,7 +6,7 @@ if (! function_exists('pagetitle')) {
      *
      * @param string|null $title
      *
-     * @return \Rephlux\PageTitle\PageTitle
+     * @return \AT\PageTitle\PageTitle
      */
     function pagetitle($title = null)
     {
