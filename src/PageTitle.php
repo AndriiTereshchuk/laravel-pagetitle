@@ -1,6 +1,6 @@
 <?php
 
-namespace Rephlux\PageTitle;
+namespace AT\PageTitle;
 
 use Countable;
 
