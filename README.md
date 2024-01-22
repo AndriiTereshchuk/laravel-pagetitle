@@ -16,7 +16,7 @@ This package simplifies the process.
 Begin by installing this package through Composer:
 
 ```bash
-composer require rephlux/pagetitle
+composer require at/pagetitle
 ```
 
 ### Laravel Users
@@ -26,7 +26,7 @@ If you are a Laravel user, then there is a service provider that need to add to 
 ```php
 'providers' => [
     '...',
-    Rephlux\PageTitle\PageTitleServiceProvider::class
+    AT\PageTitle\PageTitleServiceProvider::class
 ];
 ```
 
@@ -35,7 +35,7 @@ This package also provides a facade, which you may also register in your `config
 ```php
  'aliases' => [
      '...'
-     'PageTitle' => Rephlux\PageTitle\Facades\PageTitle::class,
+     'PageTitle' => AT\PageTitle\Facades\PageTitle::class,
  ]
 ```
 > In Laravel 5.5, [service providers and aliases are automatically registered](https://laravel.com/docs/5.5/packages#package-discovery). If you're using Laravel 5.5, you can skip these steps.
@@ -121,7 +121,7 @@ The `downward` mode first concatenates all page title parts in reverse order and
 If using Laravel, there are three configuration options that you'll need to worry about. First, publish the default configuration with the following command:
 
 ```bash
-php artisan vendor:publish --provider="Rephlux\PageTitle\PageTitleServiceProvider"
+php artisan vendor:publish --provider="AT\PageTitle\PageTitleServiceProvider"
 ```
 
 This will add a new configuration file to: `config/pagetitle.php`.
