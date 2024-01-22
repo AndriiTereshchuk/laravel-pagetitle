@@ -21,7 +21,7 @@ If you are a Laravel user, then there is a service provider that need to add to 
 ```php
 'providers' => [
     '...',
-    ATereshchuk\PageTitle\PageTitleServiceProvider::class
+    ATereshchuk\PageTitle\PageTitleServiceProvider::class,
 ];
 ```
 
