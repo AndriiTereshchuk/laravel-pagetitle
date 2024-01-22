@@ -6,7 +6,7 @@ if (! function_exists('pagetitle')) {
      *
      * @param string|null $title
      *
-     * @return \AT\PageTitle\PageTitle
+     * @return \ATereshchuk\PageTitle\PageTitle
      */
     function pagetitle($title = null)
     {
