@@ -1,13 +1,13 @@
 <?php
 
-namespace AT\PageTitle\Facades;
+namespace ATereshchuk\PageTitle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class PageTitle.
  *
- * @author Chris van Daele <engine_no9@gmx.net>
+ * @author Andrii Tereshchuk <andrii@tereshch.uk>
  */
 class PageTitle extends Facade
 {
