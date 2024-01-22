@@ -1,10 +1,5 @@
 # Manage the Page Title in Blade views
 
-[![Build Status](https://travis-ci.org/rephluX/laravel-pagetitle.svg?branch=master)](https://travis-ci.org/rephluX/laravel-pagetitle)
-[![Latest Stable Version](https://poser.pugx.org/rephlux/pagetitle/v/stable.svg)](https://packagist.org/packages/rephlux/pagetitle)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rephluX/laravel-pagetitle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rephluX/laravel-pagetitle/?branch=master)
-[![License](https://poser.pugx.org/rephlux/pagetitle/license.svg)](https://packagist.org/packages/rephlux/pagetitle)
-
 Often, you'll find yourself in situations, where you want to have more to control how to set a page title for your
 different views. Although it is possible to yield your page title in a master view it can be a hassle to deal with
 the format like a delimeter usage or to append/prepend a default page title.
@@ -16,7 +11,7 @@ This package simplifies the process.
 Begin by installing this package through Composer:
 
 ```bash
-composer require at/pagetitle
+composer require atereshchuk/pagetitle
 ```
 
 ### Laravel Users
@@ -26,7 +21,7 @@ If you are a Laravel user, then there is a service provider that need to add to 
 ```php
 'providers' => [
     '...',
-    AT\PageTitle\PageTitleServiceProvider::class
+    ATereshchuk\PageTitle\PageTitleServiceProvider::class
 ];
 ```
 
@@ -35,7 +30,7 @@ This package also provides a facade, which you may also register in your `config
 ```php
  'aliases' => [
      '...'
-     'PageTitle' => AT\PageTitle\Facades\PageTitle::class,
+     'PageTitle' => ATereshchuk\PageTitle\Facades\PageTitle::class,
  ]
 ```
 > In Laravel 5.5, [service providers and aliases are automatically registered](https://laravel.com/docs/5.5/packages#package-discovery). If you're using Laravel 5.5, you can skip these steps.
@@ -121,7 +116,7 @@ The `downward` mode first concatenates all page title parts in reverse order and
 If using Laravel, there are three configuration options that you'll need to worry about. First, publish the default configuration with the following command:
 
 ```bash
-php artisan vendor:publish --provider="AT\PageTitle\PageTitleServiceProvider"
+php artisan vendor:publish --provider="ATereshchuk\PageTitle\PageTitleServiceProvider"
 ```
 
 This will add a new configuration file to: `config/pagetitle.php`.
@@ -204,4 +199,4 @@ To retrieve the current configuration values use the corresponding getter method
 
 ## License
 
-[View the license](https://github.com/rephluX/laravel-pagetitle/blob/master/LICENSE) for this repo.
+[View the license](https://github.com/AndriiTereshchuk/laravel-pagetitle/blob/master/LICENSE) for this repo.
